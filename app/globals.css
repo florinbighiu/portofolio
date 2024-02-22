@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --line-color: #e5e7eb;
+}
+
+html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+}
+
+input.dark {
+    background-color: #7985b1;
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #7985b1 inherit;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #7985b1;
+    border-radius: 20px;
+}
