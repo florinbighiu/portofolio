@@ -3,11 +3,12 @@
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({ title, description, tags, imageUrl }: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl, url }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -24,13 +25,15 @@ export default function Project({ title, description, tags, imageUrl }: ProjectP
         opacity: opacityProgess,
       }}
       className="flex flex-col items-center mb-8 last:mb-0">
-      <div className="bg-gray-100 dark:bg-transparent border dark:border-gray-200/10 border-gray-900/10 rounded-lg min-h-[33rem]">
+      <div className="bg-gray-100 dark:bg-transparent border dark:border-gray-200/10 border-gray-900/10 rounded-lg h-[33rem]">
         <div className="w-full px-6 pt-6">
-          <Image
-            src={imageUrl}
-            alt="Project image"
-            className="rounded-lg h-[15rem] object-fit border border-gray-700/10 hover:scale-105 transition-all"
-          />
+          <Link href={url}>
+            <Image
+              src={imageUrl}
+              alt="Project image"
+              className="rounded-lg h-[15rem] object-fit border border-gray-700/10 cursor-pointer hover:scale-105 transition-all"
+            />
+          </Link>
         </div>
         <section className="p-6 transition dark:text-white ">
           <h3 className="text-2xl text-center font-semibold mb-4">{title}</h3>
