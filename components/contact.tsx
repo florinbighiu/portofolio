@@ -29,7 +29,7 @@ export default function Contact() {
         once: true,
       }}>
       <h2 className="text-5xl dark:text-white font-semibold uppercase mb-5">Let's get in touch!</h2>
-      <div className="flex dark:text-black mx-2 mt-10 bg-transparent border border-gray-800/10 dark:border-gray-100/10 min-w-full dark:text-white/80 text-black flex-col justify-center p-8 rounded-2xl">
+      <div className="flex dark:text-black mx-2 mt-10 bg-transparent border border-gray-800/10 dark:border-gray-100/10 dark:text-white/80 text-black flex-col justify-center p-8 rounded-2xl">
         <form
           className="flex flex-col "
           action={async (formData) => {

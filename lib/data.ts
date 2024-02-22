@@ -32,6 +32,7 @@ export const projectsData = [
       "E-commerce platform, written in React and Spring Boot to provide a seamless and user-friendly experience.",
     tags: ["React", "Java", "Spring", "Tailwind", "PostgreSQL"],
     imageUrl: ecommergeImg,
+    url: "https://github.com/florinbighiu/El-proyecte-grande",
   },
   {
     title: "SWAPI MERN project",
@@ -39,6 +40,7 @@ export const projectsData = [
       "A dynamic web application using the MERN stack. This project's primary goal was to create an interactive platform that seamlessly integrates with the SWAPI (Star Wars API) to provide users with valuable and entertaining information related to the Star Wars universe.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: starWarsImg,
+    url:""
   },
   {
     title: "Employees Madness",
@@ -46,6 +48,7 @@ export const projectsData = [
       "Employee Management System using the MERN stack. It provided a robust platform for HR professionals and administrators to efficiently oversee employee information.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: employeesImg,
+    url: ""
   },
 ] as const;
 
