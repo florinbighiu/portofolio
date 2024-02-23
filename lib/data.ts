@@ -38,7 +38,7 @@ export const projectsData = [
   {
     title: "SWAPI MERN project",
     description:
-      "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI (Star Wars API) to provide users with information related to the Star Wars universe.",
+      "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI to provide users with information related to the Star Wars universe.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: starWarsImg,
     url: "",
