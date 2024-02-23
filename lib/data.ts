@@ -1,6 +1,7 @@
 import ecommergeImg from "@/public/EcomX.png";
 import starWarsImg from "@/public/starWars.png"
 import employeesImg from "@/public/employeeMadness.png"
+import todoImg from "@/public/todoList.png"
 
 export const links = [
   {
@@ -40,7 +41,7 @@ export const projectsData = [
       "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI (Star Wars API) to provide users with information related to the Star Wars universe.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: starWarsImg,
-    url:""
+    url: "",
   },
   {
     title: "Employees Madness",
@@ -48,7 +49,15 @@ export const projectsData = [
       "Employee Management System using the MERN stack. It provides a robust platform for HR professionals and administrators to efficiently oversee employee information.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: employeesImg,
-    url: ""
+    url: "",
+  },
+  {
+    title: "Todo List",
+    description:
+      "Simple web application to help you manage your schedule. Created using React, Express, MongoDB, Javascript.",
+    tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
+    imageUrl: todoImg,
+    url: "",
   },
 ] as const;
 
