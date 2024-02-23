@@ -25,7 +25,7 @@ export default function Project({ title, description, tags, imageUrl, url }: Pro
         opacity: opacityProgess,
       }}
       className="flex flex-col items-center mb-8 last:mb-0">
-      <div className="bg-gray-100 dark:bg-transparent border dark:border-gray-200/10 border-gray-900/10 rounded-lg h-[33rem]">
+      <div className="bg-gray-100 dark:bg-transparent border dark:border-gray-200/10 border-gray-900/10 rounded-lg h-[35rem]">
         <div className="w-full px-6 pt-6">
           <Link href={url}>
             <Image
