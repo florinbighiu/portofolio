@@ -37,7 +37,7 @@ export const projectsData = [
   {
     title: "SWAPI MERN project",
     description:
-      "A dynamic web application using the MERN stack. This project's primary goal was to create an interactive platform that seamlessly integrates with the SWAPI (Star Wars API) to provide users with valuable and entertaining information related to the Star Wars universe.",
+      "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI (Star Wars API) to provide users with information related to the Star Wars universe.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: starWarsImg,
     url:""
@@ -45,7 +45,7 @@ export const projectsData = [
   {
     title: "Employees Madness",
     description:
-      "Employee Management System using the MERN stack. It provided a robust platform for HR professionals and administrators to efficiently oversee employee information.",
+      "Employee Management System using the MERN stack. It provides a robust platform for HR professionals and administrators to efficiently oversee employee information.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: employeesImg,
     url: ""
