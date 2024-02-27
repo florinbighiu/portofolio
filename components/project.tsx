@@ -24,14 +24,14 @@ export default function Project({ title, description, tags, imageUrl, url }: Pro
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="flex flex-col items-center mb-8 last:mb-0">
-      <div className="bg-gray-100 dark:bg-transparent border dark:border-gray-200/10 border-gray-900/10 rounded-lg h-[35rem]">
-        <div className="w-full px-6 pt-6">
+      className="flex flex-col flex-wrap mb-8 last:mb-0">
+      <div className="bg-gray-100 dark:bg-gray-800/50 border dark:border-gray-200/10 border-gray-900/10 rounded-lg flex-1">
+        <div className="px-6 pt-6 flex justify-center">
           <Link href={url}>
             <Image
               src={imageUrl}
               alt="Project image"
-              className="rounded-lg h-[15rem] object-fit border border-gray-700/10 cursor-pointer hover:scale-105 transition-all"
+              className="rounded-lg h-[15rem] w-[25rem] object-fit border border-gray-700/10 cursor-pointer hover:scale-105 transition-all"
             />
           </Link>
         </div>
