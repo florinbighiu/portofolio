@@ -24,8 +24,8 @@ export default function Project({ title, description, tags, imageUrl, url }: Pro
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="flex flex-col flex-wrap mb-8 last:mb-0">
-      <div className="bg-gray-100 dark:bg-gray-800/50 border dark:border-gray-200/10 border-gray-900/10 rounded-lg flex-1">
+      className="flex flex-col mb-8 last:mb-0">
+      <div className="bg-gray-100 dark:bg-gray-800/50 border dark:border-gray-200/10 border-gray-900/10 rounded-lg flex-grow">
         <div className="px-6 pt-6 flex justify-center">
           <Link href={url}>
             <Image
