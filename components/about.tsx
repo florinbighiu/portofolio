@@ -24,41 +24,51 @@ export default function About() {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row md:space-x-8">
           <Image
-            className="transition-all hover:translate-x-2 hover:translate-y-2 cursor-pointer rounded-lg object-cover border-[0.2rem] dark:border-white/65 border-slate-300/65 shadow-xl w-full lg:w-1/2 h-96"
+            className="cursor-pointer rounded-lg object-cover border-[0.2rem] dark:border-white/65 border-slate-300/65 shadow-xl w-full lg:w-1/4 h-[28em]"
             src={profileImg}
             alt="Florin's picture"
           />
-          <div className="flex flex-col space-y-4 mt-6 lg:mt-0 xl:mt-3">
-            <p className="text-gray-700 dark:text-gray-100 text-start leading-loose">
-              I am primarily a patient individual who excels in high-pressure environments and
-              consistently embraces an optimistic perspective. My ability to remain composed and
-              positive in challenging situations enables me to approach tasks and projects with a
-              level-headed attitude and a focus on finding solutions. I thrive in situations that
-              demand resilience, adaptability, and a constructive outlook, allowing me to contribute
-              effectively to a team's success and deliver results even in the face of adversity.
+          <div className="flex flex-col lg:w-2/3 space-y-8 px-3 md:px-0 mt-8 lg:mt-4 xl:mt-6">
+            <p className="text-start leading-relaxed lg:ml-8">
+              I am primarily a<span className="font-bold text-teal-500"> patient individual </span>{" "}
+              who excels in high-pressure environments and consistently embraces an
+              <span className="font-bold text-orange-500"> optimistic perspective</span>. This
+              combination allows me to approach tasks and projects with a
+              <span className="font-bold text-indigo-500"> level-headed attitude </span>
+              and a focus on finding solutions. I thrive in situations that demand
+              <span className="font-bold text-green-500"> resilience, adaptability</span>, and a
+              <span className="font-bold text-purple-500"> constructive outlook</span>, allowing me
+              to contribute effectively to a team's success and deliver results even in the face of
+              adversity.
             </p>
-            <ul className="grid sm:grid-cols-2 gap-y-3 gap-x-5">
-              <li className="flex items-center">
-                <FaPhone className="mr-2" />
+            <ul className="grid font-sans font-semibold sm:grid-cols-2 p-1 lg:ml-8 gap-y-4 gap-x-4">
+              <li className="flex items-center text-gray-700 dark:text-gray-200 dar hover:text-gray-500">
+                <FaPhone className="mr-2 text-blue-500" />
                 <span>
-                  <a href="tel:+40748964313">+40 748 964 313</a>
+                  <a href="tel:+40748964313" className="">
+                    +40 748 964 313
+                  </a>
                 </span>
               </li>
-              <li className="flex items-center">
-                <FaMapMarkerAlt className="mr-2" />
+              <li className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-500">
+                <FaMapMarkerAlt className="mr-2 text-green-500" />
                 <span>Iasi, Romania</span>
               </li>
-              <li className="flex items-center">
-                <FaLinkedin className="mr-2" />
-                <a href="https://www.linkedin.com/in/florin-bighiu/">florin-bighiu</a>
+              <li className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-500">
+                <FaLinkedin className="mr-2 text-blue-700" />
+                <a href="https://www.linkedin.com/in/florin-bighiu/" className="">
+                  florin-bighiu
+                </a>
               </li>
-              <li className="flex items-center">
-                <FaGithub className="mr-2" />
-                <a href="https://github.com/florinbighiu">florinbighiu</a>
+              <li className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-500">
+                <FaGithub className="mr-2 dark:text-gray-50 text-gray-900" />
+                <a href="https://github.com/florinbighiu" className="">
+                  florinbighiu
+                </a>
               </li>
-              <li className="flex items-center">
-                <FaEnvelope className="mr-2" />
-                <span>florin.bighiu1@gmail.com</span>
+              <li className="flex items-center text-gray-700 dark:text-gray-200 hover:text-gray-500">
+                <FaEnvelope className="mr-2 text-red-500" />
+                <span className="whitespace-nowrap">florin.bighiu1@gmail.com</span>
               </li>
             </ul>
           </div>
