@@ -41,7 +41,7 @@ export const projectsData = [
       "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI to provide users with information related to the Star Wars universe.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: starWarsImg,
-    url: "",
+    url: "https://github.com/florinbighiu/free-style-mern-project",
   },
   {
     title: "Employees Madness",
@@ -49,7 +49,7 @@ export const projectsData = [
       "Employee Management System using the MERN stack. It provides a robust platform for HR professionals and administrators to efficiently oversee employee information.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: employeesImg,
-    url: "",
+    url: "https://github.com/florinbighiu/the-employee-madness",
   },
   {
     title: "Todo List",
@@ -57,7 +57,7 @@ export const projectsData = [
       "Simple web application to help you manage your schedule. Created using React, Express, MongoDB, Javascript.",
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: todoImg,
-    url: "",
+    url: "https://github.com/florinbighiu/what-should-i-do",
   },
 ] as const;
 
