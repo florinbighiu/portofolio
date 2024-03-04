@@ -24,20 +24,20 @@ export default function About() {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col lg:flex-row md:space-x-8">
           <Image
-            className="cursor-pointer rounded-lg object-cover border-[0.2rem] dark:border-white/65 border-slate-300/65 shadow-xl w-full lg:w-1/4 h-[28em]"
+            className="cursor-pointer rounded-lg object-cover border-[0.2rem] dark:border-white/65 border-slate-300/65 shadow-xl w-full lg:w-1/4 h-[26em]"
             src={profileImg}
             alt="Florin's picture"
           />
-          <div className="flex flex-col lg:w-2/3 space-y-8 px-3 md:px-0 mt-8 lg:mt-4 xl:mt-6">
-            <p className="text-start leading-relaxed lg:ml-8">
-              I am primarily a<span className="font-bold text-teal-500"> patient individual </span>{" "}
+          <div className="flex flex-col justify-center lg:w-2/3 space-y-8 px-3 md:px-0 mt-8 lg:mt-2">
+            <p className="text-start text-lg leading-relaxed lg:ml-8">
+              I am primarily a<span className="font-bold "> patient individual </span>{" "}
               who excels in high-pressure environments and consistently embraces an
-              <span className="font-bold text-orange-500"> optimistic perspective</span>. This
+              <span className="font-bold "> optimistic perspective</span>. This
               combination allows me to approach tasks and projects with a
-              <span className="font-bold text-indigo-500"> level-headed attitude </span>
+              <span className="font-bold "> level-headed attitude </span>
               and a focus on finding solutions. I thrive in situations that demand
-              <span className="font-bold text-green-500"> resilience, adaptability</span>, and a
-              <span className="font-bold text-purple-500"> constructive outlook</span>, allowing me
+              <span className="font-bold "> resilience, adaptability</span>, and a
+              <span className="font-bold "> constructive outlook</span>, allowing me
               to contribute effectively to a team's success and deliver results even in the face of
               adversity.
             </p>
