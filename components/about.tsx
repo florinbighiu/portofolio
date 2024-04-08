@@ -30,16 +30,11 @@ export default function About() {
           />
           <div className="flex flex-col justify-center lg:w-2/3 space-y-8 px-3 md:px-0 mt-8 lg:mt-2">
             <p className="text-start text-lg leading-relaxed lg:ml-8">
-              I am primarily a<span className="font-bold "> patient individual </span>{" "}
-              who excels in high-pressure environments and consistently embraces an
-              <span className="font-bold "> optimistic perspective</span>. This
-              combination allows me to approach tasks and projects with a
-              <span className="font-bold "> level-headed attitude </span>
-              and a focus on finding solutions. I thrive in situations that demand
-              <span className="font-bold "> resilience, adaptability</span>, and a
-              <span className="font-bold "> constructive outlook</span>, allowing me
-              to contribute effectively to a team's success and deliver results even in the face of
-              adversity.
+              Dynamic Full Stack Developer adept in all stages of advanced web development. Over the
+              past eighteen months, I have gained valuable experience in multiple technologies,
+              including Java, Spring Framework, JavaScript, React, as well as SQL databases such as
+              PostgreSQL. Able to effectively self-manage during independent projects, as well as
+              collaborate in a team setting.
             </p>
             <ul className="grid font-sans font-semibold sm:grid-cols-2 p-1 lg:ml-8 gap-y-4 gap-x-4">
               <li className="flex items-center text-gray-700 dark:text-gray-200 dar hover:text-gray-500">
