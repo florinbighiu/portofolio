@@ -1,8 +1,7 @@
 import ecommergeImg from "@/public/EcomX.png";
 import starWarsImg from "@/public/starWars.png"
 import employeesImg from "@/public/employeeMadness.png"
-import todoImg from "@/public/todoList.png"
-
+import momentumImg from "@/public/screen.png"
 export const links = [
   {
     name: "Home",
@@ -36,6 +35,14 @@ export const projectsData = [
     url: "https://github.com/florinbighiu/El-proyecte-grande",
   },
   {
+    title: "Momentum",
+    description:
+      "Simple web application to help you manage your schedule. Created using React, Spring, PostgreSQL, Javascript.",
+    tags: ["React", "JavaScript", "PostgreSQL", "Java", "Spring"],
+    imageUrl: momentumImg,
+    url: "https://github.com/florinbighiu/manifest-app",
+  },
+  {
     title: "SWAPI MERN project",
     description:
       "A dynamic web application using the MERN stack that seamlessly integrates with the SWAPI to provide users with information related to the Star Wars universe.",
@@ -50,14 +57,6 @@ export const projectsData = [
     tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
     imageUrl: employeesImg,
     url: "https://github.com/florinbighiu/the-employee-madness",
-  },
-  {
-    title: "Todo List",
-    description:
-      "Simple web application to help you manage your schedule. Created using React, Express, MongoDB, Javascript.",
-    tags: ["React", "JavaScript", "MongoDB", "Express", "Node.js"],
-    imageUrl: todoImg,
-    url: "https://github.com/florinbighiu/what-should-i-do",
   },
 ] as const;
 
