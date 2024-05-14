@@ -31,7 +31,7 @@ export default function Project({ title, description, tags, imageUrl, url }: Pro
             <Image
               src={imageUrl}
               alt="Project image"
-              className="rounded-lg h-[15rem] w-[25rem] object-fit border border-gray-700/10 cursor-pointer hover:scale-105 transition-all"
+              className="rounded-lg h-[15rem] w-[25rem] border border-gray-700/10 cursor-pointer hover:scale-105 transition-all"
             />
           </Link>
         </div>

@@ -37,7 +37,7 @@ export const projectsData = [
   {
     title: "Momentum",
     description:
-      "Simple web application to help you manage your schedule. Created using React, Spring, PostgreSQL, Javascript.",
+      "Simple web application to help you manage your schedule with user authentication and organization switcher. Created using React, Spring, PostgreSQL, Javascript.",
     tags: ["React", "JavaScript", "PostgreSQL", "Java", "Spring"],
     imageUrl: momentumImg,
     url: "https://github.com/florinbighiu/manifest-app",
