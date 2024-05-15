@@ -1,7 +1,7 @@
 import ecommergeImg from "@/public/EcomX.png";
 import starWarsImg from "@/public/starWars.png"
 import employeesImg from "@/public/employeeMadness.png"
-import momentumImg from "@/public/screen.png"
+import momentumImg from "@/public/momentum.png"
 export const links = [
   {
     name: "Home",
