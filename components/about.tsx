@@ -36,7 +36,7 @@ export default function About() {
               PostgreSQL. Able to effectively self-manage during independent projects, as well as
               collaborate in a team setting.
             </p>
-            <ul className="grid font-sans font-semibold sm:grid-cols-2 p-1 lg:ml-8 gap-y-4 gap-x-4">
+            <ul className="grid font-semibold sm:grid-cols-2 p-1 lg:ml-8 gap-y-4 gap-x-4">
               <li className="flex items-center text-gray-700 dark:text-gray-200 dar hover:text-gray-500">
                 <FaPhone className="mr-2 text-blue-500" />
                 <span>
